@@ -5,11 +5,18 @@
 //Este archivo seria el main
 
 //preprocesadores
+#include <stdlib.h>
+#include<iostream>
+#include<windows.h>
+using namespace std;
 
 //variables
 
 //inicializacion de funciones
+void MenuPrincipal();
+
 
 int main(){
-    
+    SetConsoleOutputCP(CP_UTF8);
+    MenuPrincipal();
 }
